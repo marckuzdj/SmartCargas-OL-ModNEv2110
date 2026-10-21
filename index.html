@@ -330,7 +330,7 @@
           <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 11.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
         </svg>
       </div>
-      <h2 style="color: #8A05BE; margin: 0; font-size: 22px; font-weight: bold;">ROMANEIOS INPUT v202609.3</h2>
+      <h2 style="color: #8A05BE; margin: 0; font-size: 22px; font-weight: bold;">ROMANEIOS INPUT v202610.1</h2>
       <p style="color: #666; margin: 5px 0 0 0; font-size: 14px;">Selecione o estado de expedição</p>
     </div>
 
@@ -344,22 +344,22 @@
           <option value="BA">BA/BAW1 (FEDEX)</option>
           <option value="CE">CE/CEW1 (FEDEX)</option>
           <option value="DF">DFW1 (TGESTIONA)</option>
-          <option value="ES">ES/ESW1 (FEDEX)</option>
-          <option value="GO">GO/GOW1 (TGESTIONA)</option>
-          <option value="MA">MA/MAW1 (ATENTO)</option>
-          <option value="MT">MT/MTW1 (ATENTO)</option>
-          <option value="MS">MS/MSW1 (ATENTO)</option>
+           <!--   <option value="ES">ES/ESW1 (FEDEX)</option>  -->
+          <!--   <option value="GO">GO/GOW1 (TGESTIONA)</option>  -->
+          <!--   <option value="MA">MA/MAW1 (ATENTO)</option>  -->
+          <!--   <option value="MT">MT/MTW1 (ATENTO)</option>  -->
+          <!--   <option value="MS">MS/MSW1 (ATENTO)</option>  -->
           <option value="MG">MG/MNW5 (TEX)</option>
-          <option value="PA">PA/PAW1 (FEDEX)</option>
+          <!--   <option value="PA">PA/PAW1 (FEDEX)</option>  -->
           <option value="PB">PB/PBW1 (ATENTO)</option>
           <option value="PR">PR/PRW1 (TGESTIONA)</option>
           <option value="PE">PE/PEW1(FEDEX)</option>
           <option value="PI">PI/PIW1 (ATENTO)</option>
-          <option value="RJ">RJ/RJW5 (PROSEGUR)</option>
-		  <option value="RJ">RJ/RJW5 (CROSS VILA ISABEL)</option>
+          <option value="RJ">RJ/RJW5 (PROSEGUR / CROSS VILA ISABEL)</option>
+		  <!--   <option value="RJ">RJ/RJW5 (CROSS VILA ISABEL)</option>   -->
           <option value="RN">RN/RNW1 (ATENTO)</option>
           <option value="RS">RS/RSW1 (TGESTIONA)</option>
-          <option value="RO">RO/ROW1 (ATENTO)</option>
+          <!--   <option value="RO">RO/ROW1 (ATENTO)</option>  -->
           <option value="SC">SC/SCW1 (ATENTO)</option>
          <!--   <option value="SP">SP/SPW1-DSP1 (FEDEX)</option>  -->
 	   	  <option value="SP">SP/SPW1-DSP1 (FEDEX/ATENTO)</option> 
@@ -597,7 +597,7 @@
 	// NOVO: DICIONÁRIO MESTRE DE REDE (Ajuste os links de deploy de cada UF)
 	// =========================================================================
 	const SCRIPTS_POR_UF = {
-		 //  "AL": "",
+		    "AL": "https://script.google.com/macros/s/AKfycbwm8L_GSbZFY6xU4ULUff6rjoxor6A2FbeYOepkfcOZkoXnaKsUXKHoDHc9yvXnYxBt/exec",
 		    "AM": "https://script.google.com/macros/s/AKfycbzML6V5L5EheoY116lHau70HTd-uXNa_SjQiLIAkjKV5gqY_FwzQUEItMxDHV7-fo2D/exec",
 		    "BA": "https://script.google.com/macros/s/AKfycbzgZNnUpmzceHLjl0A0KexRPEbRwTs_osMiKOzZxNjQNgM_jc94F3ny95uccH3w9kRr-g/exec",
 		    "CE": "https://script.google.com/macros/s/AKfycby84jZNvN4IrJ07p8wAbAtmLkMKK1Fu5cYdh-iTk3rzr6T5vCXPthUitXrXpc-7Y1-3/exec",
@@ -610,17 +610,17 @@
 		  // "MS": "",
 		   "MG": "https://script.google.com/macros/s/AKfycbzbiEgg026B-Rj8d0njsgI-n9Lg3x0drezWzayRv6MMUT3aowlo2yQ4A7DBulnx9WcoXQ/exec",
 		  // "PA": "",
-		  // "PB": "",
+		   "PB": "https://script.google.com/macros/s/AKfycbyZFYNgerl2Sxv9wPdfjdk4rS11zppSpJL9a6f5nMLaBFl0m0kol9BxF4qk2dqms2M/exec",
 		   "PE": "https://script.google.com/macros/s/AKfycbyTKX7dTx8MvU4Qh6javYDxUfipriEBM-qThacTQDNV7QL-6CsIC2FOaqHA80KOcYg/exec",
 	  	   "PR": "https://script.google.com/macros/s/AKfycbz_VNwjmQ9hv3LkL5WHl2luVWZkrquNKPnPCXCyTXo4bYG8oSCTIqEtnCIIKt9fQtovrA/exec",
-      	  // "PI": "",
+      	   "PI": "https://script.google.com/macros/s/AKfycbzMaVKObwQad8-nDvOwMk-Loas9cnhG_hCilGc2i-l_EAG3NurAzIxAaNkInA7ZmIoh4A/exec",
 		   "RJ": "https://script.google.com/macros/s/AKfycbwEvZj_QZdiFcoUJmd-1CNLTOJXe8vQ2eOmu85OhgXN_dES_s54sKHIPUFTtbvzVNclwg/exec",
-		  // "RN": "",
+		   "RN": "https://script.google.com/macros/s/AKfycbyMfrNqFfeq-Ys1HS8SLCSk-upQO4Qxkj5c0bkLG5twLyGeBOiZUOKkpa4eZZ3l0euq/exec",
 		   "RS": "https://script.google.com/macros/s/AKfycbxHxI111jtkAxYeriRCmqfyoChC_D5nB68K9kbrKonv5FzIz5-0HZ3F85lkZhc7XFF0_Q/exec", // Perfil1
 		  // "RS": "https://script.google.com/macros/s/AKfycbyCe3Z1lYMPn8f0DsSXA4p8O5F_Z-rW8Wv2r7c-akCn35cbf2mkPke8-v4n7hweYRrO7g/exec", // Perfil2
 		  // "RO": "",
 		   "SC": "https://script.google.com/macros/s/AKfycbyImZzz4VRzXF-UT_LLf4c93CYoqs3ojNycYCXk4ORM0Dz3nDIVDASGZIfA4ni3dC8H/exec", 
-		  // "SE": "", 
+		   "SE": "https://script.google.com/macros/s/AKfycbyaouZVAInvc7lRFyw-CJXmQQC0-3G8TrQ83lcm-VxhKSjPwiuJZRWU0QEMzLVuWgO1/exec", 
        	   "SP": "https://script.google.com/macros/s/AKfycbycGHAZN01Fb2i9KHs3s0YXo7qdB2FPqoBFWasWyzV9DKbhCWIOprsjTseRJ-4GkfZpOg/exec" // Perfil1
 		   // "SP": "https://script.google.com/macros/s/AKfycbwXF4h6lnxsGRtMHiExWYoLK6Mh4iASrcxDRKfy_lMADaquXARtczKD-EwqA0R0UzY/exec" // Perfil2
 	  // Adicione as demais UFs conforme criar as planilhas/scripts clonados...
